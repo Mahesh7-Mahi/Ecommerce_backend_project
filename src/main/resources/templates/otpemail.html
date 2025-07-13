@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Password Reset OTP</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+  <div style="max-width: 600px; margin: auto; background-color: #fff; padding: 30px; border: 1px solid #ddd;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" style="height: 40px;">
+    <h2>Forgot your password?</h2>
+    <p>We received a request to reset the password for your Amazon account.</p>
+    <p style="font-size: 24px; font-weight: bold;">OTP: <strong th:text="${otp}"></strong></p>
+    <p>This OTP is valid for 10 minutes. Do not share this code with anyone.</p>
+    <p>If you didn’t request this, you can ignore this email.</p>
+    <br>
+    <p style="font-size: 12px; color: gray;">Amazon Support Team</p>
+  </div>
+</body>
+</html>
